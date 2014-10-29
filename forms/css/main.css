@@ -1,0 +1,38 @@
+label {
+	display: block;
+}
+
+/* when a label comes immediately after an input */
+input + label {
+	display: inline-block;
+}
+
+button {
+	font-size: 3em;
+	font-family: verdana, sans-serif;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: #093;
+	cursor: pointer;
+	color: #fff;
+}
+
+button:active {
+	background-color: red;
+}
+
+input[type="email"] {
+	border: 1px solid #000;
+	border-radius: 3px;
+	font-size: 1.125em;
+	font-family: serif;
+	background-color: #e2e2e2;
+	padding: 0.5em;
+}
+
+input[type="email"]:focus {
+	outline: 3px solid blue;
+	background-color: #fff;
+}
