@@ -36,3 +36,9 @@ input[type="email"]:focus {
 	outline: 3px solid blue;
 	background-color: #fff;
 }
+
+/*
+input[type="email"]:invalid {
+	outline: 3px solid red;
+}
+*/
